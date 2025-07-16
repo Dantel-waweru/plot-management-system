@@ -42,4 +42,6 @@ A web-based application built to help landlords or property managers efficiently
 
 
 <img width="1353" height="656" alt="Screenshot 2025-07-16 105332" src="https://github.com/user-attachments/assets/641bb6f2-03a0-4b36-80f8-60880e1ed324" />
+<img width="675" height="624" alt="Screenshot 2025-07-16 105635" src="https://github.com/user-attachments/assets/ac893902-0a0a-47c5-843f-d7c4e81a4679" />
+<img width="1345" height="584" alt="Screenshot 2025-07-16 105600" src="https://github.com/user-attachments/assets/a345762c-e55c-4316-b1e5-56aadce02046" />
 
