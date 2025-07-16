@@ -39,5 +39,7 @@ A web-based application built to help landlords or property managers efficiently
 
 ## 📷 Screenshots
 
-> *You can add screenshots here once your UI is styled. Use the format below:*
+
+
+<img width="1353" height="656" alt="Screenshot 2025-07-16 105332" src="https://github.com/user-attachments/assets/641bb6f2-03a0-4b36-80f8-60880e1ed324" />
 
