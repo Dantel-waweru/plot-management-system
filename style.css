@@ -1,0 +1,246 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+  body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+table th, table td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+.btn {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: blueviolet;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding: 20px;
+    transition: all 0.3s ease;
+}
+
+.sidebar.collapsed {
+    width: 0;
+    overflow: hidden;
+}
+
+.sidebar-header h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidebar-menu {
+    list-style-type: none;
+}
+
+.sidebar-menu li {
+    margin: 20px 0;
+}
+
+.sidebar-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.sidebar-menu a:hover, .sidebar-menu a.active {
+    background-color: #575757;
+}
+
+.menu-toggle {
+    font-size: 24px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* Main Content */
+.main-content {
+    margin-left: 250px;
+    padding: 20px;
+    width: calc(100% - 250px);
+    transition: all 0.3s ease;
+}
+
+.main-content.collapsed {
+    margin-left: 0;
+    width: 100%;
+}
+
+.taskbar {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.taskbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.taskbar-btn {
+    background-color: #575757;
+    border: none;
+    padding: 10px 15px;
+    color: white;
+    cursor: pointer;
+}
+
+.taskbar-btn:hover {
+    background-color: #444;
+}
+
+/* Plot Management Content */
+.dashboard-content {
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.add-plot-form {
+    margin-bottom: 20px;
+}
+
+.add-plot-form input, .add-plot-form select, .add-plot-form button {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.plot-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.plot-list th, .plot-list td {
+    padding: 10px;
+    text-align: left;
+}
+
+.plot-list th {
+    background-color: #f1f1f1;
+}
+
+.plot-list tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .sidebar {
+        width: 200px;
+    }
+
+    .main-content {
+        margin-left: 200px;
+        width: calc(100% - 200px);
+    }
+
+    .taskbar {
+        flex-direction: column;
+    }
+}
+
+
+.main-content {
+    padding: 20px;
+}
+
+/* Add Plot Form */
+.add-plot-form {
+    margin-bottom: 30px;
+}
+
+.add-plot-form form input,
+.add-plot-form form select,
+.add-plot-form form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.add-plot-form form button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.add-plot-form form button:hover {
+    background-color: #0056b3;
+}
+
+/* Plot List */
+.plot-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.plot-list table th,
+.plot-list table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.plot-list table th {
+    background-color: #007bff;
+    color: white;
+}
+
+.plot-list table td {
+    text-align: center;
+}
+
+/* Alert message */
+.alert {
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #dff0d8;
+    color: #3c763d;
+    border: 1px solid #d6e9c6;
+    border-radius: 5px;
+}
